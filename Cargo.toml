@@ -1,0 +1,21 @@
+[package]
+name = "divisibility_check"
+version = "0.1.0"
+authors = ["wasimdhamriya <wasimdhamriya@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/wasim-dhamriya/divisibility_check"
+license = "MIT"
+description = "Rust program to check whether a number is divisible by another number."
+
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+check = {path = "check"}
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 0
